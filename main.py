@@ -1,8 +1,8 @@
-from selection import Selection
+from sorting import Sorting
 
 def main():
     arr = [64,25,17,34,90,12]
-    s = Selection()
+    s = Sorting()
     s.selection_sort(arr)
     print(arr)
 
